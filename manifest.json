@@ -1,0 +1,9 @@
+{
+	"id": "daily-notes-calendar",
+	"name": "Daily Notes Calendar",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Navigate daily notes with a popup calendar and copy links.",
+	"author": "noki",
+	"isDesktopOnly": true
+}
