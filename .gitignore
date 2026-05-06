@@ -4,3 +4,6 @@ data.json
 test_vault/
 .claude/
 agent-log/
+reference/
+references/
+ref/
