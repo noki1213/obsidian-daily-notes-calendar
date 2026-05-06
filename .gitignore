@@ -2,3 +2,5 @@ data.json
 .DS_Store
 .obsidian/
 test_vault/
+.claude/
+agent-log/
