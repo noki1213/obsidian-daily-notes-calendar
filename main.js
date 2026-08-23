@@ -108,7 +108,7 @@ class CalendarModal extends Modal {
 				const templateFile = this.app.vault.getAbstractFileByPath(this.settings.templatePath);
 				if (templateFile instanceof TFile) {
 					content = await this.app.vault.read(templateFile);
-					// Replace the date variables
+					// Substitute the date placeholders
 					content = content.replace(/{{date}}/g, this.selectedDate.format(this.settings.dateFormat));
 					content = content.replace(/{{time}}/g, window.moment().format('HH:mm'));
 					content = content.replace(/{{title}}/g, fileName);
